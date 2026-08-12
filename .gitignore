@@ -1,0 +1,18 @@
+# Python artifacts
+__pycache__/
+*.pyc
+
+# Test artifacts
+.pytest_cache/
+
+# Spark local artifacts
+metastore_db/
+spark-warehouse/
+derby.log
+
+# IDE
+.idea/
+.vscode/
+
+# macOS
+.DS_Store
