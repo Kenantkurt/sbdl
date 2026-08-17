@@ -37,6 +37,15 @@ pipenv run python sbdl_main.py LOCAL 2022-08-02
 pipenv run pytest -v
 ```
 
+## What follows the course, and what is mine
+
+The pipeline design and the business logic follow the course. My own work on top of it:
+
+- the project skeleton typed from scratch rather than cloned, file by file
+- the git workflow: feature → dev → release → main, with a protected `main`
+- the CI pipeline with a required status check — nothing merges red
+- the test setup, asserted against my own measured environment
+
 ## CI
 
 Every push runs the tests on a clean runner via GitHub Actions:
